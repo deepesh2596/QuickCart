@@ -2,6 +2,7 @@
 import { productsDummyData, userDummyData } from "@/assets/assets";
 import { useUser } from "@clerk/nextjs";
 import axios from "axios";
+import { getAuth } from "@clerk/nextjs/server";
 import { useRouter } from "next/navigation";
 import { createContext, useContext, useEffect, useState } from "react";
 import toast from "react-hot-toast";
