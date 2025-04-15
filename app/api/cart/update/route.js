@@ -4,7 +4,8 @@ import User from "@/models/User";
 import { NextResponse } from "next/server";
 
 
-async function POST(request) {
+
+export async function POST(request) {
 
     try {
 
